@@ -6,7 +6,34 @@ header {
   background-color: #f1f1f1;
   padding: 20px 10px;
 }
+body{
+    background-image: url("reise.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
 
+  li {
+      float: left;
+  }
+
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+      background-color: #111;
+  }
 
 }
 /* Style the header links */
@@ -66,5 +93,3 @@ sheader-right {
   .header-right {
     float: none;
   }
->>>>>>> db35662566c809178c27080c8f18fe3e93f43d0d
-}
