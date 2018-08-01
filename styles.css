@@ -18,7 +18,14 @@ header  {
   line-height: 25px;
   border-radius: 4px;
 }
-.center {
-    text-align: center;
-    border: 3px solid green;
+.carousel-inner {
+  position: relative;
+  right: 1000px;
+    /*text-align: center;
+    border: 3px solid green; */
+}
+
+.carousel-item{
+  position: relative;
+  margin-right: 1000px;
 }
