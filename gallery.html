@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<title>reise</title>
+<head>
+  <link rel="shortcut icon" href="reisefavicon.ico">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <div class="col-sm-4"><center>
+    <div class="header">
+  <a href="reise.png" class="logo"</a>
+
+</center></div>
+      <img class="img-responsive" src="reise.png" alt="Reise Logo" style="width:250px;height:150px;">
+  </div>
+
+<body>
+  <body background="background.jpeg" bgproperties="fixed">
+    <body background="background.jpeg" bgproperties="fixed">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">reise</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="review.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Your Blogs
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Most Popular</a>
+                <a class="dropdown-item" href="#">New and Upcoming</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Reise Favourites</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">experience others journeys</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+<br></br>
+
+
+<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label>
+</p>
+
+<p>
+<label>Phone
+<input type="tel" name="phone_number">
+</label>
+</p>
+
+<p>
+<label>Email
+<input type="email" name="email_address">
+</label>
+</p>
+
+<fieldset>
+<legend>How often do you travel?</legend>
+<p><label> <input type="radio" name="taxi" required value="car"> Never </label></p>
+<p><label> <input type="radio" name="taxi" required value="van"> Sometimes </label></p>
+<p><label> <input type="radio" name="taxi" required value="tuktuk"> Frequently </label></p>
+</fieldset>
+
+<fieldset>
+<legend>Why do you travel?</legend>
+<p><label> <input type="checkbox" name="extras" value="Work"> Work </label></p>
+<p><label> <input type="checkbox" name="extras" value="Leisure"> Leisure </label></p>
+<p><label> <input type="checkbox" name="extras" value="Other"> Other </label></p>
+</fieldset>
+
+<p>
+<label>Date of Birth
+<input type="datetime-local" name="date-of-birth" required>
+</label>
+</p>
+
+<p>
+<label>Home Country
+<input type="text" name="homecountry" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="Europe">
+<option value="America">
+<option value="Asia">
+<option value="Other">
+</datalist>
+</p>
+
+<p>
+<label>Other Comments
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit</button></p>
+
+</form>
