@@ -94,4 +94,6 @@ sheader-right {
     float: none;
   }
 
-  
+  img "img1.png" {
+    border-radius: 50%;
+}
